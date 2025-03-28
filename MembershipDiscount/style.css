@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#productPrice{
+    width: 15em;
+}
+
+#warning{
+    color: red;
+    font-size: medium;
+}
+
+.memberships{
+    padding-bottom: 1.5em;
+}
+
+.memberships label{
+    padding-right: 1em;
+}

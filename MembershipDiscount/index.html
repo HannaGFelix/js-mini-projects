@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hanna Felix">
+    <meta name="description" content="Membership Discount">
+    <title>Membership Discount</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Membership Discount Calculator</h2>
+    </header>
+    <main>
+        <!--This is a form fro the member-->
+        <label for="productPrice">Current price of product: </label>
+        <input type="number" id="productPrice" placeholder="Please enter price of item" min="0">
+        <p id="warning"></p>
+        
+        <h4>Select membership: </h4>
+        <div class="memberships">
+            <input type="radio" id="blue" value="blue" name="membership">
+            <label for="blue">Blue Membership</label>
+            <input type="radio" id="green" value="purple" name="membership">
+            <label for="green">Green Membership</label>
+            <input type="radio" id="purple" value="purple" name="membership"> 
+            <label for="purple">Purple Membership</label>
+        </div>
+         
+        <div class="button">
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <p id="totalPrice"></p>
+
+    
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
